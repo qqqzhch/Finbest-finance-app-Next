@@ -14,7 +14,7 @@ const Home = (props) => {
     <>
       <div className="home-container">
         <Head>
-          <title>Finbest</title>
+          <title>Valuerouter</title>
           <meta name="description" content="Description of the website" />
           <meta property="og:title" content="Finbest" />
           <meta
@@ -40,32 +40,28 @@ const Home = (props) => {
             <div className="home-content">
               <h1 className="home-title">Value Router for Web3.</h1>
               <span className="home-caption">
-                MultiCircle is a value routing protocol that supports
+              Valuerouter is a value routing protocol that supports
                 any2any@any asset swaps by aggregating CCTP and DEX aggregators,
                 enabling developers to build multi-chain dApps and enabling
                 users to route valuable assets to any DeFi protocol.
               </span>
               <div className="home-hero-buttons">
                 <a
-                  href="https://www.multicircle.org/"
+                  href="https://app.valuerouter.com/"
                   target="_blank"
                   rel="noreferrer noopener"
                   className="home-link1"
                 >
                   <div className="home-io-btn">
-                    <img
-                      alt="pastedImage"
-                      src="/pastedimage-zmzg.svg"
-                      className="home-apple"
-                    />
-                    <span className="home-caption1">multicircle</span>
+                    
+                    <span className="home-caption1">START NOW</span>
                   </div>
                 </a>
               </div>
             </div>
             <img
               alt="pastedImage"
-              src="/pastedimage-v31-1500h.png"
+              src="/LandingPage/vr1.jpeg"
               className="home-pasted-image"
             />
             <div className="home-images">
@@ -110,19 +106,7 @@ const Home = (props) => {
         <div className="home-sections">
           <div className="home-section">
             <div className="home-image">
-              <div className="home-image-highlight">
-                <span className="home-text01">
-                  <span>
-                    always know your in and out
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                  <br></br>
-                </span>
-              </div>
+          
             </div>
             <div className="home-content1">
               <h2 className="home-text04">Value Router</h2>
@@ -162,19 +146,7 @@ const Home = (props) => {
           </div>
           <div className="home-section2">
             <div className="home-image2">
-              <div className="home-image-highlight1">
-                <span className="home-text07">
-                  <span>
-                    always know your in and out
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                  <br></br>
-                </span>
-              </div>
+          
             </div>
             <div className="home-content4">
               <h2 className="home-text10">RWA Tokenization</h2>
@@ -387,24 +359,7 @@ const Home = (props) => {
                 eiusmod tempor incididunt ut labore magna.
               </span>
             </div>
-            <div className="home-hero-buttons1">
-              <div className="home-io-btn1">
-                <img
-                  alt="pastedImage"
-                  src="/pastedimage-zmzg.svg"
-                  className="home-apple1"
-                />
-                <span className="home-caption2">Download for iOS</span>
-              </div>
-              <div className="home-android-btn">
-                <img
-                  alt="pastedImage"
-                  src="/pastedimage-ld65.svg"
-                  className="home-android"
-                />
-                <span className="home-caption3">Download for Android</span>
-              </div>
-            </div>
+            
           </div>
         </div>
         <Footer></Footer>
@@ -638,7 +593,7 @@ const Home = (props) => {
             flex-direction: row;
             background-size: contain;
             justify-content: flex-end;
-            background-image: url('/group%201277.svg');
+            background-image: url('/LandingPage/vr0.png');
             background-repeat: no-repeat;
             background-position: center;
           }
@@ -779,7 +734,7 @@ const Home = (props) => {
             flex-direction: row;
             background-size: cover;
             justify-content: flex-end;
-            background-image: url('/group%201309.svg');
+            background-image: url('/LandingPage/vr1.jpeg');
             background-repeat: no-repeat;
             background-position: center;
           }
@@ -802,7 +757,7 @@ const Home = (props) => {
             flex-direction: row;
             background-size: contain;
             justify-content: flex-end;
-            background-image: url('/group%201277.svg');
+            background-image: url('/LandingPage/vr3.jpeg');
             background-repeat: no-repeat;
             background-position: center;
           }

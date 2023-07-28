@@ -351,7 +351,7 @@ const Navbar = (props) => {
 }
 
 Navbar.defaultProps = {
-  image_src1: '/color%20logo%20-%20no%20background-1500h.png',
+  image_src1: '/ValueRouter.png',
   Link_3: 'Process',
   text1: 'Resources',
   text12: 'Process',

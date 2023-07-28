@@ -11,11 +11,7 @@ const Footer = (props) => {
         <div className="footer-content">
           <div className="footer-information">
             <div className="footer-heading">
-              <img
-                alt={props.pastedImage_alt}
-                src={props.pastedImage_src}
-                className="footer-pasted-image"
-              />
+           
               <span className="footer-text">{props.text1}</span>
             </div>
             <div className="footer-socials">

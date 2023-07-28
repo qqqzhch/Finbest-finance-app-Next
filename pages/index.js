@@ -38,12 +38,9 @@ const Home = (props) => {
           </div>
           <div className="home-hero">
             <div className="home-content">
-              <h1 className="home-title">Value Router for Web3.</h1>
+              <h1 className="home-title">Route Values in Web3.</h1>
               <span className="home-caption">
-              Valuerouter is a value routing protocol that supports
-                any2any@any asset swaps by aggregating CCTP and DEX aggregators,
-                enabling developers to build multi-chain dApps and enabling
-                users to route valuable assets to any DeFi protocol.
+              ValueRouter is a versatile value routing protocol that facilitates seamless multi-chain any-to-any asset swaps by consolidating CCTP and DEXes. This empowers developers to construct multi-chain dApps while allowing users to efficiently direct valuable assets to any DeFi protocol on mainstream chains.
               </span>
               <div className="home-hero-buttons">
                 <a
@@ -61,100 +58,14 @@ const Home = (props) => {
             </div>
             <img
               alt="pastedImage"
-              src="/LandingPage/vr1.jpeg"
+              src="/LandingPage/vr2.jpeg"
               className="home-pasted-image"
             />
-            <div className="home-images">
-              <div className="home-column"></div>
-              <div className="home-column1"></div>
-              <div className="home-column2">
-                <img
-                  alt="pastedImage"
-                  src="/pastedimage-06e.svg"
-                  className="home-pasted-image1"
-                />
-              </div>
-            </div>
+       
           </div>
         </div>
-        <div className="home-features">
-          <div className="home-header1">
-            <div className="home-heading1">
-              <h2 className="home-text">
-                Unlocking a new world of DeFi with RWA and crypto native assets
-              </h2>
-            </div>
-          </div>
-          <div className="home-feature-list">
-            <Feature
-              Title="Virtual Card"
-              Thumbnail="/vector6113-lvvs.svg"
-              rootClassName="feature-root-class-name3"
-            ></Feature>
-            <Feature
-              Title="Safe Transactions"
-              Thumbnail="/vector6114-cupp.svg"
-              rootClassName="feature-root-class-name4"
-            ></Feature>
-            <Feature
-              Title="Milestones"
-              Thumbnail="/vector6114-6m1e.svg"
-              rootClassName="feature-root-class-name5"
-            ></Feature>
-          </div>
-        </div>
-        <div className="home-sections">
-          <div className="home-section">
-            <div className="home-image">
-          
-            </div>
-            <div className="home-content1">
-              <h2 className="home-text04">Value Router</h2>
-              <Highlight Description="Value Router that not only for the crypto native assets, but is ready for the RWA from permissioned pools or securities trading based on certain attributes, such as accredited investor status"></Highlight>
-              <div className="home-explore"></div>
-            </div>
-          </div>
-          <div className="home-section1">
-            <div className="home-content2">
-              <div className="home-heading2">
-                <h2 className="home-text05">RWA with DeFi</h2>
-                <span className="home-text06">
-                  The opportunity for individuals and entities who may not have
-                  access to traditional forms of identification to participate
-                  in decentralized finance (DeFi) with RWA. This helps to
-                  promote a more globally inclusive financial system by enabling
-                  a wider range of individuals to engage with DeFi protocols and
-                  access the economic benefits RWA provided.
-                </span>
-              </div>
-              <div className="home-content3">
-                <div className="home-points">
-                  <Point></Point>
-                  <Point text="Quis nostrud exercitation ullamco"></Point>
-                  <Point text="Reprehenderit qui in ea voluptate velit"></Point>
-                </div>
-                <Link href="/">
-                  <a>
-                    <div className="home-get-started">
-                      <span className="home-sign-up">Get started now</span>
-                    </div>
-                  </a>
-                </Link>
-              </div>
-            </div>
-            <div className="home-image1"></div>
-          </div>
-          <div className="home-section2">
-            <div className="home-image2">
-          
-            </div>
-            <div className="home-content4">
-              <h2 className="home-text10">RWA Tokenization</h2>
-              <Highlight Description="The potential to significantly improve capital efficiency by leveraging crypto assets for more RWA tokenization. RWA assets issuers can raise capital more efficiently than the traditional way."></Highlight>
-              <div className="home-explore1"></div>
-            </div>
-          </div>
-        </div>
+        
+    
         <div className="home-features1">
           <div className="home-header2">
             <div className="home-tag">
@@ -162,7 +73,7 @@ const Home = (props) => {
             </div>
             <div className="home-heading3">
               <h2 className="home-text12">
-                Connecting TradFi to DeFi with one protocol
+              Efficiently manage your assets in DeFi with agility.
               </h2>
             </div>
           </div>
@@ -198,170 +109,78 @@ const Home = (props) => {
             ></Feature>
           </div>
         </div>
-        <div className="home-faq">
-          <div className="home-content5">
-            <div className="home-header3">
-              <div className="home-tag1">
-                <span className="home-text13">
-                  <span>FAQ</span>
-                  <br></br>
+        <div className="home-features1">
+          <div className="home-header2">
+         
+            <div className="home-heading3">
+              <h2 className="home-text12">
+              How it works
+              </h2>
+            </div>
+          </div>
+          <div className="home-feature-list1" style={{width:"100%", }}>
+          <img
+              alt="pastedImage"
+              src="/LandingPage/vr5.png"
+              style={{width:"80%",margin:"auto" }}
+            />
+          </div>
+        </div>
+        <div className="home-sections">
+        <div className="home-heading3">
+              <h2 className="home-text12">
+              Unlocking a new world of DeFi with RWA and crypto native assets
+              </h2>
+            </div>
+          <div className="home-section">
+            <div className="home-image">
+          
+            </div>
+            <div className="home-content1">
+              <h2 className="home-text04">Value Router</h2>
+              <Highlight Description="ValueRouter serves as a unifying force for the DeFi ecosystem across multiple mainstream chains, consolidating them into a single, interconnected DeFi platform that extends its utility to RWA assets. By enabling users to leverage their RWA assets, which hold real-world value, within the DeFi space, we create a symbiotic relationship where the value from the real world, brought in by RWAs, bolsters and expands the DeFi ecosystem to new scales. This mutually beneficial arrangement drives the growth and sustainability of the DeFi landscape while unlocking the potential of real-world assets in the decentralized financial realm."></Highlight>
+              <div className="home-explore"></div>
+            </div>
+          </div>
+          <div className="home-section1">
+            <div className="home-content2">
+              <div className="home-heading2">
+                <h2 className="home-text05">RWA with DeFi</h2>
+                <span className="home-text06">
+                By embracing Real-World Assets (RWA) within decentralized finance (DeFi), we create an opportunity for individuals and entities who lack access to conventional identification methods to participate in the DeFi space. This fosters a more globally inclusive financial system, as it allows a broader spectrum of individuals to engage with DeFi protocols and reap the economic advantages that RWA offers. Through this approach, we strive to bridge the gap between traditional financial systems and DeFi, empowering more people worldwide to be part of the decentralized financial revolution and benefit from its opportunities.
                 </span>
               </div>
-              <div className="home-heading4">
-                <h2 className="home-text16">Frequently Asked Questions</h2>
+              <div className="home-content3">
+                <div className="home-points">
+                  <Point></Point>
+                  <Point text="Quis nostrud exercitation ullamco"></Point>
+                  <Point text="Reprehenderit qui in ea voluptate velit"></Point>
+                </div>
+                <Link href="/">
+                  <a>
+                    <div className="home-get-started">
+                      <span className="home-sign-up">Get started now</span>
+                    </div>
+                  </a>
+                </Link>
               </div>
             </div>
-            <div className="home-rows">
-              <div className="home-column3">
-                <div className="Question">
-                  <span className="home-title1">
-                    What is sit amet, consectetur adipiscing elit, sed do?
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                  <span className="home-description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Excepteur sint occaecat cupidatat non proident, sunt
-                    in culpa qui officia deserunt mollit anim id est laborum.
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                </div>
-                <div className="Question">
-                  <span className="home-title2">
-                    What is sit amet, consectetur adipiscing elit, sed do?
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                  <span className="home-description1">
-                    <span>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Excepteur sint occaecat cupidatat non proident,
-                      sunt in culpa qui officia deserunt mollit anim id est
-                      laborum.
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
-                    </span>
-                    <br></br>
-                    <span>
-                      tempor incididunt ut labore et dolore magna aliqua.
-                      Excepteur sint occaecat
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
-                    </span>
-                  </span>
-                </div>
-                <div className="home-question2 Question">
-                  <span className="home-title3">
-                    What is sit amet, consectetur adipiscing elit, sed do?
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                  <span className="home-description2">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna.
-                  </span>
-                </div>
-              </div>
-              <div className="home-column4">
-                <div className="home-question3 Question">
-                  <span className="home-title4">
-                    What is sit amet, consectetur adipiscing elit, sed do?
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                  <span className="home-description3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna.
-                  </span>
-                </div>
-                <div className="home-question4 Question">
-                  <span className="home-title5">
-                    What is sit amet, consectetur adipiscing elit, sed do?
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                  <span className="home-description4">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna.
-                  </span>
-                </div>
-                <div className="home-question5 Question">
-                  <span className="home-title6">
-                    What is sit amet, consectetur adipiscing elit, sed do?
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                  <span className="home-description5">
-                    <span>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Excepteur sint occaecat cupidatat non proident,
-                      sunt in culpa qui officia deserunt mollit anim id est
-                      laborum.
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
-                    </span>
-                    <br></br>
-                    <span>
-                      tempor incididunt ut labore et dolore magna aliqua.
-                      Excepteur sint occaecat
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
-                    </span>
-                  </span>
-                </div>
-              </div>
+            <div className="home-image1"></div>
+          </div>
+          <div className="home-section2">
+            <div className="home-image2">
+          
+            </div>
+            <div className="home-content4">
+              <h2 className="home-text10">RWA Tokenization with CCTP X MPC</h2>
+              <Highlight Description="TWe prioritize the secure tokenization of Real-World Assets (RWA) using advanced technologies such as Cross-Chain Transfer Protocol (CCTP) and Multi-Party Computation (MPC). By employing these cutting-edge solutions, we ensure the utmost security and transparency for RWA tokenization. The integration of multi-chain presence from the outset allows for seamless asset transfers and transactions across various blockchain networks. This approach enhances accessibility, liquidity, and interoperability for RWA within the decentralized finance (DeFi) ecosystem, providing users with a robust and reliable platform to interact with their assets securely and efficiently."></Highlight>
+              <div className="home-explore1"></div>
             </div>
           </div>
         </div>
-        <div className="home-get-started1">
-          <div className="home-content6">
-            <div className="home-heading5">
-              <h2 className="home-text23">Get started with finbest now!</h2>
-              <span className="home-text24">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore magna.
-              </span>
-            </div>
-            
-          </div>
-        </div>
+        
+        
+      
         <Footer></Footer>
       </div>
       <style jsx>
@@ -373,6 +192,9 @@ const Home = (props) => {
             overflow-x: hidden;
             align-items: center;
             flex-direction: column;
+          }
+          .home-pasted-image2{
+            width:100%
           }
           .home-header {
             width: 100%;
@@ -476,6 +298,9 @@ const Home = (props) => {
           }
           .home-pasted-image {
             width: 240px;
+          }
+          .home-pasted-image2 {
+            width: 100%;
           }
           .home-images {
             gap: var(--dl-space-space-oneandhalfunits);

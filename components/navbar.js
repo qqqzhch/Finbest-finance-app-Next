@@ -17,26 +17,13 @@ const Navbar = (props) => {
                 className="navbar-image"
               />
             </div>
-            <div className="navbar-links">
-              <Link href="/">
-                <a className="link">{props.Link_1}</a>
-              </Link>
-              <Link href="/">
-                <a className="link">{props.Link_2}</a>
-              </Link>
-              <Link href="/">
-                <a className="link">{props.Link_3}</a>
-              </Link>
-              <Link href="/">
-                <a className="link">{props.Link_4}</a>
-              </Link>
-            </div>
+
           </div>
           <div className="navbar-quick-actions">
             <Link href="/">
               <a className="navbar-link08 link">Log in</a>
             </Link>
-            <Link href="/">
+            <Link href="https://app.valuerouter.com/">
               <a className="navbar-link09">
                 <div className="navbar-sign-up-btn">
                   <span className="navbar-sign-up">START NOW</span>
@@ -67,18 +54,8 @@ const Navbar = (props) => {
             </svg>
           </div>
           <div className="navbar-links1">
-            <Link href="/">
-              <a className="navbar-link10">{props.text1}</a>
-            </Link>
-            <Link href="/">
-              <a className="navbar-link11">{props.text11}</a>
-            </Link>
-            <Link href="/">
-              <a className="navbar-link12">{props.text12}</a>
-            </Link>
-            <Link href="/">
-              <a className="navbar-link13">{props.text13}</a>
-            </Link>
+          
+          
             <div className="navbar-buttons">
               <Link href="/">
                 <a className="navbar-link14">
@@ -87,7 +64,7 @@ const Navbar = (props) => {
                   </div>
                 </a>
               </Link>
-              <Link href="/">
+              <Link href="https://app.valuerouter.com/">
                 <a className="navbar-link15">
                   <div className="navbar-btn1">
                     <span className="navbar-text1">{props.text1311}</span>
@@ -367,7 +344,7 @@ Navbar.defaultProps = {
   Link_2: 'Inspiration',
   pastedImage_alt: 'pastedImage',
   image_alt1: 'image',
-  image_src: '/color%20logo%20-%20no%20background-1500h.png',
+  image_src: '/ValueRouter.png',
   Branding_alt: 'pastedImage',
   text11: 'Inspiration',
 }
